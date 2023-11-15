@@ -125,15 +125,15 @@ def products_delete(request,id):
     products.delete()
     return JsonResponse({"message":"success"})
 
-def brands_index(request):
-    return render(request,"brands.html")
-def customers_index(request):
-    return render(request,"customers.html")
-def sellers_index(request):
-    return render(request,"sellers.html")
-def categories_index(request):
-    return render(request,"categories.html")
-def products_index(request):
-    return render(request,"products.html")
-def products_form(request):
-    return render(request,"product.html")
+# def brands_index(request):
+#     return render(request,"brands.html")
+# def customers_index(request):
+#     return render(request,"customers.html")
+# def sellers_index(request):
+#     return render(request,"sellers.html")
+# def categories_index(request):
+#     return render(request,"categories.html")
+# def products_index(request):
+#     return render(request,"products.html")
+# def products_form(request):
+#     return render(request,"product.html")
